@@ -1,1 +1,4 @@
-# git-learn-note
+# Git 使用学习笔记
+学习如何使用git，方便复习
+
+
