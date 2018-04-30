@@ -15,7 +15,7 @@
 *   ###deleted(D)
     >已删除文件,删除上一次提交到版本库的文件
     
-    通过调用 git rm file_path
+    通过调用 git rm <file_path>
     
 *   ###renamed(R)
     >已改名文件
