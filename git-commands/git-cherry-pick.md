@@ -12,7 +12,15 @@
     *   -e|--edit 修改上一次commit提交的信息
     *   -n|--no-commit 只是在当前分支上apply这些commits的改变，但是不提交到当前分支
     
+````bash
+F:\mac\WebstormProjects\WebstormProjects\gitLearn>git cherry-pick d318fc6
+[checkTag 999f510] :
+ Date: Mon Nov 12 21:54:04 2018 +0800
+ 1 file changed, 1 insertion(+), 1 deletion(-)    
+````    
+    
 当提交了一个cherry-pick会出现下列步骤：
+
 1.  当前分支盒HEAD头会保持在最后一次成功commit
 1.  CHERRY_PICK_HEAD 引用会设定在提取目标的提交commit
 1.  那些已经提交完成的更改，它们的文件路径会在暂存区和工作树这两个工作区更新
