@@ -37,6 +37,8 @@
 * Git高级命令
     * 储藏与清理
         * [git stash](git-commands/git-stash.md)
+    * 提取
+        * [git cherry-pick](git-commands/git-cherry-pick.md)    
     * 常用场景实战
         * [修改commit提交](git-commands/git-ammend-commit.md)
         * [修改远程仓库提交](git-commands/git-force-update-remote-commit.md)
